@@ -461,6 +461,12 @@ properties:
           - const: qcom,qcs9100
           - const: qcom,sa8775p
 
+      - items:
+          - enum:
+              - qcom,sa8797p-ride
+          - const: qcom,sa8797p
+          - const: qcom,nord
+
       - description: Qualcomm AR2 Gen1 platform
         items:
           - enum:
